@@ -271,6 +271,57 @@ def get_cache_stats() -> Dict[str, int]:
     }
 
 
+def _match_course_name(query: str, title: str) -> float:
+    """Calculate match score between query and course title.
+
+    Args:
+        query: Search query (course name)
+        title: Course title
+
+    Returns:
+        Match score (0.0 to 1.0)
+    """
+    query_lower = query.lower().strip()
+    title_lower = title.lower().strip()
+
+    # Exact match
+    if query_lower == title_lower:
+        return 1.0
+
+    # Query is substring of title or vice versa
+    if query_lower in title_lower:
+        return 0.9
+    if title_lower in query_lower:
+        return 0.85
+
+    # Word overlap matching
+    query_words = set(re.findall(r'\b\w+\b', query_lower))
+    title_words = set(re.findall(r'\b\w+\b', title_lower))
+
+    # Remove common stop words
+    stop_words = {'the', 'a', 'an', 'in', 'on', 'to', 'for', 'of', 'and', 'with', 'from', 'course'}
+    query_words = query_words - stop_words
+    title_words = title_words - stop_words
+
+    if not query_words or not title_words:
+        return 0.0
+
+    # Calculate Jaccard-like similarity
+    overlap = query_words & title_words
+    if not overlap:
+        return 0.0
+
+    # Score based on how many query words are in title
+    query_coverage = len(overlap) / len(query_words)
+    # Bonus for significant overlap
+    if len(overlap) >= 3:
+        return min(0.8, query_coverage)
+    elif len(overlap) >= 2:
+        return min(0.6, query_coverage)
+
+    return query_coverage * 0.5
+
+
 def search_course_by_name(
     course_name: str,
     topic_index: Dict[str, Dict],
@@ -289,31 +340,64 @@ def search_course_by_name(
     if not course_name:
         return None
 
-    name_lower = course_name.lower().strip()
+    best_match = None
+    best_score = 0.0
+    min_score_threshold = 0.5  # Minimum score to consider a match
 
-    # First check in previous search results
+    # Helper to check a list of courses
+    def check_courses(courses: List[Dict]) -> None:
+        nonlocal best_match, best_score
+        for course in courses:
+            title = course.get("title", "")
+            if not title:
+                continue
+            score = _match_course_name(course_name, title)
+            if score > best_score:
+                best_score = score
+                best_match = course
+                # Early exit for high confidence match
+                if score >= 0.9:
+                    return
+
+    # First check in previous search results (highest priority)
     if search_results:
-        for course in search_results:
-            title = course.get("title", "").lower()
-            if name_lower in title or title in name_lower:
-                return course
+        check_courses(search_results)
+        if best_score >= 0.9:
+            logger.info(f"Found course in search results with score {best_score:.2f}")
+            return best_match
 
     # Search in cached courses
     for courses in _csv_cache.values():
-        for course in courses:
-            title = course.get("title", "").lower()
-            if name_lower in title or title in name_lower:
-                return course
+        check_courses(courses)
+        if best_score >= 0.9:
+            logger.info(f"Found course in cache with score {best_score:.2f}")
+            return best_match
 
-    # Load all topics and search
-    for slug, info in topic_index.items():
-        if slug not in _csv_cache and "full_path" in info:
-            courses = load_topic_courses(slug, info)
-            for course in courses:
-                title = course.get("title", "").lower()
-                if name_lower in title or title in name_lower:
-                    return course
+    # Load topics matching likely keywords in course name
+    name_lower = course_name.lower()
+    likely_topics = []
+    for slug in topic_index.keys():
+        slug_clean = slug.replace('-', ' ')
+        if slug_clean in name_lower or any(word in name_lower for word in slug_clean.split()):
+            likely_topics.append(slug)
 
+    # Search in likely topics first
+    for slug in likely_topics:
+        if slug not in _csv_cache:
+            info = topic_index.get(slug, {})
+            if "full_path" in info:
+                courses = load_topic_courses(slug, info)
+                check_courses(courses)
+                if best_score >= 0.9:
+                    logger.info(f"Found course in topic '{slug}' with score {best_score:.2f}")
+                    return best_match
+
+    # Return best match if above threshold
+    if best_match and best_score >= min_score_threshold:
+        logger.info(f"Best match found with score {best_score:.2f}: {best_match.get('title', '')[:60]}")
+        return best_match
+
+    logger.info(f"No matching course found for '{course_name}' (best score: {best_score:.2f})")
     return None
 
 

@@ -26,22 +26,57 @@ def _extract_course_name(message: str) -> str:
     Returns:
         Extracted course name or empty string
     """
+    message_clean = message.strip()
+
+    # Skip if user is asking by course number (e.g., "course 1", "course 2")
+    if re.search(r'\bcourse\s+\d+\b', message_clean, re.IGNORECASE):
+        return ""
+
     # Common patterns for course name references
     patterns = [
-        r"details?\s+(?:of|for|about)\s+(?:the\s+)?(?:course\s+)?['\"]?(.+?)['\"]?\s*$",
-        r"(?:tell|show|get)\s+(?:me\s+)?(?:about|details?\s+(?:of|for))\s+(?:the\s+)?(?:course\s+)?['\"]?(.+?)['\"]?\s*$",
-        r"(?:the\s+)?course\s+['\"]?(.+?)['\"]?\s*$",
+        # "get the live details of the XYZ course"
+        r"(?:get|fetch|show|tell)\s+(?:me\s+)?(?:the\s+)?(?:live\s+)?details?\s+(?:of|for|about)\s+(?:the\s+)?(.+?)(?:\s+course)?\s*$",
+        # "details of XYZ"
+        r"details?\s+(?:of|for|about)\s+(?:the\s+)?(.+?)(?:\s+course)?\s*$",
+        # "info on the XYZ" / "about the XYZ"
+        r"(?:about|info\s+on|information\s+on)\s+(?:the\s+)?(.+?)(?:\s+course)?\s*$",
+        # "the XYZ course"
+        r"(?:the\s+)?(.+?)\s+course\s*$",
     ]
 
-    message_lower = message.lower().strip()
-
     for pattern in patterns:
-        match = re.search(pattern, message_lower, re.IGNORECASE)
+        match = re.search(pattern, message_clean, re.IGNORECASE)
         if match:
             name = match.group(1).strip()
-            # Skip if it's just a number
-            if not name.isdigit():
+            # Remove trailing "course" if present
+            name = re.sub(r'\s+course\s*$', '', name, flags=re.IGNORECASE)
+            # Remove leading articles and prepositions
+            name = re.sub(r'^(?:the|a|an|on)\s+', '', name, flags=re.IGNORECASE)
+            # Skip if it's just a number or too short
+            if not re.match(r'^\d+$', name) and len(name) > 3:
+                logger.info(f"Extracted course name: '{name}'")
                 return name
+
+    # Fallback: If message contains common course keywords, try to extract
+    if any(kw in message.lower() for kw in ['details', 'about', 'info', 'fetch', 'get']):
+        # Remove common prefixes iteratively
+        cleaned = message_clean
+        prefix_pattern = r'^(?:get|fetch|show|tell|me|the|live|details?|of|for|about|on|course|info|information)\s+'
+        for _ in range(5):  # Max 5 iterations
+            new_cleaned = re.sub(prefix_pattern, '', cleaned, flags=re.IGNORECASE)
+            if new_cleaned == cleaned:
+                break
+            cleaned = new_cleaned
+
+        cleaned = re.sub(r'\s+course\s*$', '', cleaned, flags=re.IGNORECASE).strip()
+
+        # Skip if result looks like a number reference
+        if re.match(r'^(?:course\s+)?\d+$', cleaned, re.IGNORECASE):
+            return ""
+
+        if len(cleaned) > 5:
+            logger.info(f"Extracted course name (fallback): '{cleaned}'")
+            return cleaned
 
     return ""
 
@@ -80,43 +115,46 @@ class DetailsHandler:
         course_url = ""
         course_title = ""
 
-        # Try to get course by number first
-        course_idx = intent.course_reference
-        if course_idx is None:
-            match = re.search(r'\bcourse\s+(\d+)\b', user_message, re.IGNORECASE)
-            if match:
-                course_idx = int(match.group(1))
+        # First, try to extract course name from user message
+        course_name = _extract_course_name(user_message)
 
-        # If we have a valid course number and search results, use them
-        if course_idx and state.last_search_results:
-            idx = course_idx - 1
-            if 0 <= idx < len(state.last_search_results):
-                course = state.last_search_results[idx]
+        # If user mentioned a course name, search for it in CSV first
+        if course_name:
+            logger.info(f"Searching for course by name: {course_name}")
+            index = get_index()
+            course = search_course_by_name(
+                course_name,
+                index,
+                state.last_search_results
+            )
+
+            if course:
                 course_url = course.get("url", "")
                 course_title = course.get("title", "")
-                logger.info(f"Found course by index {course_idx}: {course_title[:60]}")
+                logger.info(f"Found course in KB: {course_title[:60]}")
+                logger.info(f"Course URL: {course_url}")
+            else:
+                # Generate URL from course name as fallback
+                course_url = generate_course_url(course_name)
+                course_title = course_name
+                logger.info(f"Generated URL for course: {course_url}")
 
-        # If no course found by number, try to find by name
-        if not course:
-            course_name = _extract_course_name(user_message)
-            if course_name:
-                logger.info(f"Searching for course by name: {course_name}")
-                index = get_index()
-                course = search_course_by_name(
-                    course_name,
-                    index,
-                    state.last_search_results
-                )
+        # If no course name found, try to get by number
+        if not course and not course_url:
+            course_idx = intent.course_reference
+            if course_idx is None:
+                match = re.search(r'\bcourse\s+(\d+)\b', user_message, re.IGNORECASE)
+                if match:
+                    course_idx = int(match.group(1))
 
-                if course:
+            # If we have a valid course number and search results, use them
+            if course_idx and state.last_search_results:
+                idx = course_idx - 1
+                if 0 <= idx < len(state.last_search_results):
+                    course = state.last_search_results[idx]
                     course_url = course.get("url", "")
                     course_title = course.get("title", "")
-                    logger.info(f"Found course in KB: {course_title[:60]}")
-                else:
-                    # Generate URL from course name as fallback
-                    course_url = generate_course_url(course_name)
-                    course_title = course_name
-                    logger.info(f"Generated URL for course: {course_url}")
+                    logger.info(f"Found course by index {course_idx}: {course_title[:60]}")
 
         # If still no course or URL, ask user to search first
         if not course_url:

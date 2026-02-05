@@ -41,9 +41,6 @@ env/
 *.log
 logs/
 
-# Data (large files)
-udemy_data/courses/
-
 # OS
 .DS_Store
 Thumbs.db
