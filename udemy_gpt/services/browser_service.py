@@ -45,60 +45,64 @@ Extract information matching these EXACT Udemy page sections:
 ## HEADER SECTION (top of page)
 - title: Course title
 - subtitle: Course headline/subtitle
-- rating: Course rating (e.g., "4.8")
-- ratings_count: Number of ratings (e.g., "31K ratings" or "556,000 ratings")
-- students: Students enrolled (e.g., "200,000 students")
-- created_by: Instructor name(s)
-- last_updated: Last update date
+- rating: Course rating (e.g., "4.6")
+- ratings_count: Number of ratings (e.g., "555,792 ratings" or "31K ratings")
+- students: Students enrolled (e.g., "2,127,487 students")
+- created_by: Instructor name(s) - look for "Created by" text
+- last_updated: Last update date (e.g., "8/2024" or "Last updated 8/2024")
 - language: Course language
-- subtitles: Available subtitles
-- price: Current price
-- original_price: Original price if discounted
+- level: Course level - look for "All Levels", "Beginner", "Intermediate", "Advanced", or "Expert"
+- price: Current price (e.g., "$84.99" or "Free")
+- original_price: Original price if discounted (e.g., "$199.99")
 
 ## "What you'll learn" SECTION
-- objectives: Array of all learning points listed
+- objectives: Array of ALL learning points listed in checkmark items
 
 ## "This course includes" SECTION
 - duration: Video hours (e.g., "22 hours on-demand video")
 - articles: Articles count (e.g., "14 articles")
 - resources: Downloadable resources (e.g., "19 downloadable resources")
-- coding_exercises: Coding exercises if any
-- certificate: Certificate info
+- coding_exercises: Coding exercises (e.g., "Coding exercises")
+- certificate: Certificate info (e.g., "Certificate of completion")
 
 ## "Course content" SECTION
 - sections_count: Total sections (e.g., "23 sections")
 - lectures_count: Total lectures (e.g., "156 lectures")
 - total_length: Total duration (e.g., "22h 13m total length")
-- curriculum: Array of section objects with title, lectures, duration
+- curriculum: Array of ALL section objects with {title, lectures, duration}
 
 ## "Requirements" SECTION
 - requirements: Array of all prerequisites
 
 ## "Description" SECTION
-- description: Full course description text
+- description: Full course description text (combine all paragraphs)
 
 ## "Who this course is for" SECTION
-- target_audience: Array of target audience items
+- target_audience: Array of all target audience items
 
-## "Instructors" SECTION
-For each instructor, extract:
-- instructor_name: Full name
-- instructor_title: Job title/headline
-- instructor_rating: Rating (e.g., "4.6 Instructor Rating")
+## "Instructors" SECTION (near bottom of page)
+IMPORTANT: Look for instructor stats that appear like this pattern:
+"Jose Portilla 4.6 Instructor Rating 1,329,045 Reviews 4,460,382 Students 87 Courses"
+
+Extract:
+- instructor_name: Full name (e.g., "Jose Portilla")
+- instructor_title: Job title if shown (e.g., "Head of Data Science")
+- instructor_rating: Rating value (e.g., "4.6 Instructor Rating")
 - instructor_reviews: Reviews count (e.g., "1,329,045 Reviews")
 - instructor_students: Students count (e.g., "4,460,382 Students")
 - instructor_courses: Courses count (e.g., "87 Courses")
-- instructor_bio: Full biography text (after clicking Show more)
+- instructor_bio: Biography text
 
 ## "Student feedback" SECTION
-- course_rating: Overall rating (e.g., "4.8 course rating")
-- rating_breakdown: Object with star percentages {"5_star": "75%", "4_star": "20%", ...}
-- reviews: Array of review objects with content, rating, date, reviewer_name
+Look for rating breakdown near reviews:
+- course_rating: Overall rating (e.g., "4.6 course rating")
+- rating_breakdown: Star percentages {"5_star": "73%", "4_star": "21%", "3_star": "4%", "2_star": "1%", "1_star": "1%"}
+- reviews: Array of visible review objects with {content, rating, date, reviewer_name}
 
 Return as JSON:
 {
   "title": "", "subtitle": "", "rating": "", "ratings_count": "", "students": "",
-  "created_by": "", "last_updated": "", "language": "", "price": "", "original_price": "",
+  "created_by": "", "last_updated": "", "language": "", "level": "", "price": "", "original_price": "",
   "objectives": [], "duration": "", "articles": "", "resources": "", "coding_exercises": "", "certificate": "",
   "sections_count": "", "lectures_count": "", "total_length": "", "curriculum": [],
   "requirements": [], "description": "", "target_audience": [],
@@ -108,10 +112,11 @@ Return as JSON:
 }
 
 Rules:
-1. Extract EXACTLY as shown on page - preserve formatting (e.g., "4.8", "31K ratings")
+1. Extract EXACTLY as shown on page - preserve formatting (e.g., "4.6", "555,792 ratings")
 2. Keep numbers with commas/K/M suffixes as-is
 3. Use empty string "" for missing fields, empty array [] for missing lists
-4. Return ONLY valid JSON, no markdown"""
+4. Return ONLY valid JSON, no markdown
+5. For curriculum, include ALL sections shown on the page"""
 
 COURSE_DETAIL_USER_PROMPT = """Extract detailed information from this Udemy course page:
 
@@ -271,8 +276,11 @@ async def _click_expand_buttons(page: Page) -> int:
         'button:has-text("Expand all sections")',
         'button:has-text("Show more")',
         'button:has-text("See more")',
+        'button:has-text("+ Show more")',
         '[data-purpose="expand-toggle"]',
         '[data-purpose="show-more"]',
+        '[data-purpose="instructor-bio"] button',
+        'span:has-text("Show more") >> xpath=ancestor::button',
     ]
 
     for selector in expand_selectors:
@@ -368,25 +376,36 @@ async def fetch_course_details(course_url: str) -> Optional[CourseDetails]:
             logger.warning("Cloudflare challenge not resolved")
             return None
 
-        # Scroll to load dynamic content
-        for _ in range(3):
-            await page.evaluate("window.scrollBy(0, window.innerHeight)")
-            await asyncio.sleep(random.uniform(0.5, 0.8))
+        # Scroll to bottom to load all lazy content (instructor section is at bottom)
+        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        await asyncio.sleep(2)
 
-        # Click expand buttons to reveal all content
+        # Scroll back to top
+        await page.evaluate("window.scrollTo(0, 0)")
+        await asyncio.sleep(1)
+
+        # Click "Expand all sections" first (for course content)
         await _click_expand_buttons(page)
         await asyncio.sleep(1)
 
-        # Scroll through the entire page
-        for _ in range(5):
+        # Scroll through the entire page slowly to trigger lazy loading
+        for _ in range(8):
             await page.evaluate("window.scrollBy(0, window.innerHeight)")
-            await asyncio.sleep(0.3)
+            await asyncio.sleep(random.uniform(0.4, 0.6))
 
-        # Click more expand buttons after scrolling
+        # Click all "Show more" buttons (description, instructor bio, etc.)
+        await _click_expand_buttons(page)
+        await asyncio.sleep(1)
+
+        # Scroll to very bottom again to ensure instructor section is loaded
+        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        await asyncio.sleep(2)
+
+        # Click any remaining expand buttons
         await _click_expand_buttons(page)
         await asyncio.sleep(0.5)
 
-        # Scroll back to top
+        # Scroll back to top before extraction
         await page.evaluate("window.scrollTo(0, 0)")
         await asyncio.sleep(1)
 
