@@ -68,30 +68,55 @@ class TopicComparison:
 class CourseDetails(BaseModel):
     """Detailed course information fetched from Udemy via browser."""
 
+    # Header section
     title: str = ""
     subtitle: str = ""
-    description: str = ""
     url: str = ""
     rating: str = ""
-    reviews_count: str = ""
+    ratings_count: str = ""
     students: str = ""
+    created_by: str = ""
     last_updated: str = ""
     language: str = ""
     level: str = ""
     price: str = ""
     original_price: str = ""
+
+    # What you'll learn
+    objectives: List[str] = Field(default_factory=list)
+
+    # This course includes
     duration: str = ""
-    lectures: str = ""
-    sections: str = ""
     articles: str = ""
     resources: str = ""
+    coding_exercises: str = ""
+    certificate: str = ""
+
+    # Course content
+    sections_count: str = ""
+    lectures_count: str = ""
+    total_length: str = ""
     curriculum: List[Dict[str, Any]] = Field(default_factory=list)
+
+    # Requirements
+    requirements: List[str] = Field(default_factory=list)
+
+    # Description
+    description: str = ""
+
+    # Who this course is for
+    target_audience: List[str] = Field(default_factory=list)
+
+    # Instructors section
     instructor_name: str = ""
     instructor_title: str = ""
     instructor_rating: str = ""
+    instructor_reviews: str = ""
     instructor_students: str = ""
     instructor_courses: str = ""
-    requirements: List[str] = Field(default_factory=list)
-    objectives: List[str] = Field(default_factory=list)
-    target_audience: List[str] = Field(default_factory=list)
+    instructor_bio: str = ""
+
+    # Student feedback section
+    course_rating: str = ""
+    rating_breakdown: Dict[str, str] = Field(default_factory=dict)
     reviews: List[Dict[str, str]] = Field(default_factory=list)

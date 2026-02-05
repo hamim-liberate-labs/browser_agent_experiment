@@ -92,7 +92,7 @@ class DetailsHandler:
         """
         self._llm = llm_service
 
-    @traceable(name="handle_details", run_type="chain")
+    @traceable(name="details_handle_request", run_type="chain")
     async def handle_details(
         self,
         intent: IntentClassification,

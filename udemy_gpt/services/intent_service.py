@@ -73,6 +73,7 @@ class IntentService:
 
         return self._parse_response(response)
 
+    @traceable(name="intent_parse_response", run_type="parser")
     def _parse_response(self, response: str) -> IntentClassification:
         """Parse LLM response into IntentClassification.
 

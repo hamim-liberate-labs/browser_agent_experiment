@@ -115,17 +115,93 @@ def format_live_details(details: CourseDetails) -> str:
     Returns:
         Markdown formatted details
     """
-    objectives = "\n".join(f"- {obj}" for obj in details.objectives[:8]) if details.objectives else "- Not available"
-    requirements = "\n".join(f"- {req}" for req in details.requirements[:5]) if details.requirements else "- Not available"
-    curriculum = "\n".join(f"- {c.get('section', 'Section')}" for c in details.curriculum[:8]) if details.curriculum else "- Not available"
+    objectives = "\n".join(f"- {obj}" for obj in details.objectives[:10]) if details.objectives else "- Not available"
+    requirements = "\n".join(f"- {req}" for req in details.requirements[:8]) if details.requirements else "- Not available"
+
+    # Format curriculum - handle both dict format and string format
+    curriculum_items = []
+    if details.curriculum:
+        for c in details.curriculum[:20]:  # Show up to 20 sections
+            if isinstance(c, dict):
+                title = c.get('title', c.get('section', c.get('section_title', 'Section')))
+                lectures = c.get('lectures', c.get('lecture_info', c.get('lectures_count', '')))
+                duration = c.get('duration', c.get('section_duration', ''))
+                # Build section info string
+                info_parts = []
+                if lectures:
+                    info_parts.append(str(lectures))
+                if duration:
+                    info_parts.append(str(duration))
+                if info_parts:
+                    curriculum_items.append(f"- **{title}** ({' • '.join(info_parts)})")
+                else:
+                    curriculum_items.append(f"- {title}")
+            elif isinstance(c, str):
+                curriculum_items.append(f"- {c}")
+    curriculum = "\n".join(curriculum_items) if curriculum_items else "- Not available"
+
+    target_audience = "\n".join(f"- {t}" for t in details.target_audience[:8]) if details.target_audience else "- Not specified"
 
     reviews_list = []
     if details.reviews:
-        for r in details.reviews[:3]:
-            content = r.get("content", "")[:200]
+        for r in details.reviews[:5]:
+            content = r.get("content", "")[:300]
+            rating = r.get("rating", "")
+            date = r.get("date", "")
             if content:
-                reviews_list.append(f"> {content}")
+                header = []
+                if rating:
+                    header.append(f"⭐ {rating}")
+                if date:
+                    header.append(f"📅 {date}")
+                header_str = " | ".join(header) if header else ""
+                if header_str:
+                    reviews_list.append(f"**{header_str}**\n> {content}")
+                else:
+                    reviews_list.append(f"> {content}")
     reviews = "\n\n".join(reviews_list) if reviews_list else "> No reviews available"
+
+    # Build "This course includes" section
+    course_includes = []
+    if details.duration:
+        course_includes.append(f"- {details.duration}")
+    if details.articles:
+        course_includes.append(f"- {details.articles}")
+    if details.resources:
+        course_includes.append(f"- {details.resources}")
+    if details.coding_exercises:
+        course_includes.append(f"- {details.coding_exercises}")
+    if details.certificate:
+        course_includes.append(f"- {details.certificate}")
+    course_includes_text = "\n".join(course_includes) if course_includes else "- Not available"
+
+    # Build course content summary
+    content_summary = []
+    if details.sections_count:
+        content_summary.append(details.sections_count)
+    if details.lectures_count:
+        content_summary.append(details.lectures_count)
+    if details.total_length:
+        content_summary.append(details.total_length)
+    content_summary_text = " • ".join(content_summary) if content_summary else "Not available"
+
+    # Description (truncated if too long)
+    description = details.description[:1500] + "..." if len(details.description) > 1500 else details.description
+    description = description if description else "Not available"
+
+    # Instructor bio (truncated if too long)
+    instructor_bio = details.instructor_bio[:800] + "..." if len(details.instructor_bio) > 800 else details.instructor_bio
+
+    # Format rating breakdown
+    rating_breakdown_text = ""
+    if details.rating_breakdown:
+        breakdown_items = []
+        for stars in ["5_star", "4_star", "3_star", "2_star", "1_star"]:
+            if stars in details.rating_breakdown:
+                star_label = stars.replace("_star", " star")
+                breakdown_items.append(f"| {star_label} | {details.rating_breakdown[stars]} |")
+        if breakdown_items:
+            rating_breakdown_text = "| Stars | Percentage |\n|-------|------------|\n" + "\n".join(breakdown_items)
 
     return f"""
 ## Course Details (Live from Udemy)
@@ -135,35 +211,63 @@ def format_live_details(details: CourseDetails) -> str:
 | Attribute | Value |
 |-----------|-------|
 | **URL** | {details.url} |
-| **Rating** | {details.rating} ({details.reviews_count} reviews) |
+| **Rating** | {details.rating} ({details.ratings_count}) |
 | **Students** | {details.students} |
+| **Created by** | {details.created_by} |
 | **Last Updated** | {details.last_updated} |
+| **Language** | {details.language} |
 | **Level** | {details.level} |
 | **Current Price** | {details.price} |
 | **Original Price** | {details.original_price} |
-| **Duration** | {details.duration} |
-| **Lectures** | {details.lectures} |
-| **Sections** | {details.sections} |
 
 ---
-### What You'll Learn
+### What you'll learn
 {objectives}
+
+---
+### This course includes
+{course_includes_text}
+
+---
+### Course content
+**{content_summary_text}**
+
+{curriculum}
 
 ---
 ### Requirements
 {requirements}
 
 ---
-### Curriculum (Preview)
-{curriculum}
+### Description
+{description}
 
 ---
-### Instructor
+### Who this course is for
+{target_audience}
+
+---
+### Instructors
 **{details.instructor_name}**
-{details.instructor_title}
+*{details.instructor_title}*
+
+| Stat | Value |
+|------|-------|
+| **Instructor Rating** | {details.instructor_rating} |
+| **Reviews** | {details.instructor_reviews} |
+| **Students** | {details.instructor_students} |
+| **Courses** | {details.instructor_courses} |
+
+{instructor_bio}
 
 ---
-### Recent Reviews
+### Student feedback
+**{details.course_rating}** | **{details.ratings_count}**
+
+{rating_breakdown_text}
+
+---
+### Reviews
 {reviews}
 """
 
@@ -198,9 +302,6 @@ def format_kb_details(course: Dict) -> str:
 | **Lectures** | {course.get('lectures', 'N/A')} |
 | **Bestseller** | {bestseller} |
 | **Topic** | {course.get('topic', 'N/A')} |
-
----
-> **Tip:** Ask for "live details" to get current information from Udemy.
 """
 
 
