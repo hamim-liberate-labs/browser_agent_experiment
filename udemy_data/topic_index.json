@@ -1,0 +1,2450 @@
+{
+  "3d-game-development": {
+    "path": "Bestselling\\3d-game-development.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\3d-game-development.csv",
+    "section": "Bestselling",
+    "course_count": 40
+  },
+  "3d-modeling": {
+    "path": "Bestselling\\3d-modeling.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\3d-modeling.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "accounting": {
+    "path": "Bestselling\\accounting.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\accounting.csv",
+    "section": "Bestselling",
+    "course_count": 44
+  },
+  "algorithms": {
+    "path": "Bestselling\\algorithms.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\algorithms.csv",
+    "section": "Bestselling",
+    "course_count": 39
+  },
+  "amazon-aws": {
+    "path": "Bestselling\\amazon-aws.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\amazon-aws.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "angular": {
+    "path": "Bestselling\\angular.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\angular.csv",
+    "section": "Bestselling",
+    "course_count": 48
+  },
+  "artificial-intelligence": {
+    "path": "Bestselling\\artificial-intelligence.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\artificial-intelligence.csv",
+    "section": "Bestselling",
+    "course_count": 47
+  },
+  "aspnet-core": {
+    "path": "Bestselling\\aspnet-core.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\aspnet-core.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "autocad": {
+    "path": "Bestselling\\autocad.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\autocad.csv",
+    "section": "Bestselling",
+    "course_count": 41
+  },
+  "aws-certified-cloud-practitioner": {
+    "path": "Bestselling\\aws-certified-cloud-practitioner.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\aws-certified-cloud-practitioner.csv",
+    "section": "Bestselling",
+    "course_count": 39
+  },
+  "aws-certified-developer-associate": {
+    "path": "Bestselling\\aws-certified-developer-associate.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\aws-certified-developer-associate.csv",
+    "section": "Bestselling",
+    "course_count": 35
+  },
+  "aws-certified-solutions-architect-associate": {
+    "path": "Bestselling\\aws-certified-solutions-architect-associate.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\aws-certified-solutions-architect-associate.csv",
+    "section": "Bestselling",
+    "course_count": 39
+  },
+  "aws-certified-solutions-architect-professional": {
+    "path": "Bestselling\\aws-certified-solutions-architect-professional.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\aws-certified-solutions-architect-professional.csv",
+    "section": "Bestselling",
+    "course_count": 35
+  },
+  "blender": {
+    "path": "Bestselling\\blender.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\blender.csv",
+    "section": "Bestselling",
+    "course_count": 46
+  },
+  "business-analysis": {
+    "path": "Bestselling\\business-analysis.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\business-analysis.csv",
+    "section": "Bestselling",
+    "course_count": 41
+  },
+  "c-plus-plus": {
+    "path": "Bestselling\\c-plus-plus.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\c-plus-plus.csv",
+    "section": "Bestselling",
+    "course_count": 41
+  },
+  "c-sharp": {
+    "path": "Bestselling\\c-sharp.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\c-sharp.csv",
+    "section": "Bestselling",
+    "course_count": 44
+  },
+  "canva": {
+    "path": "Bestselling\\canva.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\canva.csv",
+    "section": "Bestselling",
+    "course_count": 47
+  },
+  "capm": {
+    "path": "Bestselling\\capm.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\capm.csv",
+    "section": "Bestselling",
+    "course_count": 37
+  },
+  "certified-kubernetes-administrator-cka": {
+    "path": "Bestselling\\certified-kubernetes-administrator-cka.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\certified-kubernetes-administrator-cka.csv",
+    "section": "Bestselling",
+    "course_count": 34
+  },
+  "chatgpt": {
+    "path": "Bestselling\\chatgpt.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\chatgpt.csv",
+    "section": "Bestselling",
+    "course_count": 47
+  },
+  "cisco-ccna": {
+    "path": "Bestselling\\cisco-ccna.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\cisco-ccna.csv",
+    "section": "Bestselling",
+    "course_count": 41
+  },
+  "communication-skills": {
+    "path": "Bestselling\\communication-skills.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\communication-skills.csv",
+    "section": "Bestselling",
+    "course_count": 46
+  },
+  "comptia-a": {
+    "path": "Bestselling\\comptia-a.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\comptia-a.csv",
+    "section": "Bestselling",
+    "course_count": 36
+  },
+  "comptia-network": {
+    "path": "Bestselling\\comptia-network.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\comptia-network.csv",
+    "section": "Bestselling",
+    "course_count": 37
+  },
+  "comptia-security": {
+    "path": "Bestselling\\comptia-security.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\comptia-security.csv",
+    "section": "Bestselling",
+    "course_count": 41
+  },
+  "css": {
+    "path": "Bestselling\\css.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\css.csv",
+    "section": "Bestselling",
+    "course_count": 48
+  },
+  "cyber-security": {
+    "path": "Bestselling\\cyber-security.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\cyber-security.csv",
+    "section": "Bestselling",
+    "course_count": 44
+  },
+  "data-analysis": {
+    "path": "Bestselling\\data-analysis.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\data-analysis.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "data-modeling": {
+    "path": "Bestselling\\data-modeling.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\data-modeling.csv",
+    "section": "Bestselling",
+    "course_count": 35
+  },
+  "data-science": {
+    "path": "Bestselling\\data-science.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\data-science.csv",
+    "section": "Bestselling",
+    "course_count": 49
+  },
+  "data-structures": {
+    "path": "Bestselling\\data-structures.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\data-structures.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "deep-learning": {
+    "path": "Bestselling\\deep-learning.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\deep-learning.csv",
+    "section": "Bestselling",
+    "course_count": 42
+  },
+  "devops": {
+    "path": "Bestselling\\devops.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\devops.csv",
+    "section": "Bestselling",
+    "course_count": 40
+  },
+  "digital-marketing": {
+    "path": "Bestselling\\digital-marketing.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\digital-marketing.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "docker": {
+    "path": "Bestselling\\docker.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\docker.csv",
+    "section": "Bestselling",
+    "course_count": 47
+  },
+  "drawing": {
+    "path": "Bestselling\\drawing.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\drawing.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "electronics": {
+    "path": "Bestselling\\electronics.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\electronics.csv",
+    "section": "Bestselling",
+    "course_count": 40
+  },
+  "english-grammar": {
+    "path": "Bestselling\\english-grammar.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\english-grammar.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "english-language": {
+    "path": "Bestselling\\english-language.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\english-language.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "ethical-hacking": {
+    "path": "Bestselling\\ethical-hacking.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\ethical-hacking.csv",
+    "section": "Bestselling",
+    "course_count": 49
+  },
+  "excel": {
+    "path": "Bestselling\\excel.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\excel.csv",
+    "section": "Bestselling",
+    "course_count": 41
+  },
+  "financial-analysis": {
+    "path": "Bestselling\\financial-analysis.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\financial-analysis.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "financial-modeling": {
+    "path": "Bestselling\\financial-modeling.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\financial-modeling.csv",
+    "section": "Bestselling",
+    "course_count": 37
+  },
+  "french-language": {
+    "path": "Bestselling\\french-language.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\french-language.csv",
+    "section": "Bestselling",
+    "course_count": 36
+  },
+  "game-development": {
+    "path": "Bestselling\\game-development.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\game-development.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "german-language": {
+    "path": "Bestselling\\german-language.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\german-language.csv",
+    "section": "Bestselling",
+    "course_count": 35
+  },
+  "git": {
+    "path": "Bestselling\\git.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\git.csv",
+    "section": "Bestselling",
+    "course_count": 44
+  },
+  "google-flutter": {
+    "path": "Bestselling\\google-flutter.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\google-flutter.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "graphic-design": {
+    "path": "Bestselling\\graphic-design.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\graphic-design.csv",
+    "section": "Bestselling",
+    "course_count": 46
+  },
+  "guitar": {
+    "path": "Bestselling\\guitar.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\guitar.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "information-security": {
+    "path": "Bestselling\\information-security.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\information-security.csv",
+    "section": "Bestselling",
+    "course_count": 41
+  },
+  "investing": {
+    "path": "Bestselling\\investing.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\investing.csv",
+    "section": "Bestselling",
+    "course_count": 32
+  },
+  "it-networking-fundamentals": {
+    "path": "Bestselling\\it-networking-fundamentals.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\it-networking-fundamentals.csv",
+    "section": "Bestselling",
+    "course_count": 36
+  },
+  "java": {
+    "path": "Bestselling\\java.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\java.csv",
+    "section": "Bestselling",
+    "course_count": 46
+  },
+  "javascript": {
+    "path": "Bestselling\\javascript.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\javascript.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "kubernetes": {
+    "path": "Bestselling\\kubernetes.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\kubernetes.csv",
+    "section": "Bestselling",
+    "course_count": 42
+  },
+  "leadership": {
+    "path": "Bestselling\\leadership.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\leadership.csv",
+    "section": "Bestselling",
+    "course_count": 44
+  },
+  "life-coaching": {
+    "path": "Bestselling\\life-coaching.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\life-coaching.csv",
+    "section": "Bestselling",
+    "course_count": 37
+  },
+  "linux-administration": {
+    "path": "Bestselling\\linux-administration.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\linux-administration.csv",
+    "section": "Bestselling",
+    "course_count": 35
+  },
+  "linux": {
+    "path": "Bestselling\\linux.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\linux.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "machine-learning": {
+    "path": "Bestselling\\machine-learning.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\machine-learning.csv",
+    "section": "Bestselling",
+    "course_count": 50
+  },
+  "massage": {
+    "path": "Bestselling\\massage.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\massage.csv",
+    "section": "Bestselling",
+    "course_count": 41
+  },
+  "math": {
+    "path": "Bestselling\\math.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\math.csv",
+    "section": "Bestselling",
+    "course_count": 40
+  },
+  "microservices": {
+    "path": "Bestselling\\microservices.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\microservices.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "microsoft-az-104": {
+    "path": "Bestselling\\microsoft-az-104.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\microsoft-az-104.csv",
+    "section": "Bestselling",
+    "course_count": 37
+  },
+  "microsoft-az-900": {
+    "path": "Bestselling\\microsoft-az-900.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\microsoft-az-900.csv",
+    "section": "Bestselling",
+    "course_count": 38
+  },
+  "microsoft-pl-300": {
+    "path": "Bestselling\\microsoft-pl-300.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\microsoft-pl-300.csv",
+    "section": "Bestselling",
+    "course_count": 35
+  },
+  "microsoft-power-bi": {
+    "path": "Bestselling\\microsoft-power-bi.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\microsoft-power-bi.csv",
+    "section": "Bestselling",
+    "course_count": 48
+  },
+  "music-production": {
+    "path": "Bestselling\\music-production.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\music-production.csv",
+    "section": "Bestselling",
+    "course_count": 44
+  },
+  "music-theory": {
+    "path": "Bestselling\\music-theory.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\music-theory.csv",
+    "section": "Bestselling",
+    "course_count": 42
+  },
+  "photography": {
+    "path": "Bestselling\\photography.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\photography.csv",
+    "section": "Bestselling",
+    "course_count": 38
+  },
+  "photoshop": {
+    "path": "Bestselling\\photoshop.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\photoshop.csv",
+    "section": "Bestselling",
+    "course_count": 39
+  },
+  "piano": {
+    "path": "Bestselling\\piano.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\piano.csv",
+    "section": "Bestselling",
+    "course_count": 42
+  },
+  "plc": {
+    "path": "Bestselling\\plc.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\plc.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "pmbok": {
+    "path": "Bestselling\\pmbok.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\pmbok.csv",
+    "section": "Bestselling",
+    "course_count": 36
+  },
+  "pmp": {
+    "path": "Bestselling\\pmp.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\pmp.csv",
+    "section": "Bestselling",
+    "course_count": 39
+  },
+  "project-management": {
+    "path": "Bestselling\\project-management.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\project-management.csv",
+    "section": "Bestselling",
+    "course_count": 51
+  },
+  "prompt-engineering": {
+    "path": "Bestselling\\prompt-engineering.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\prompt-engineering.csv",
+    "section": "Bestselling",
+    "course_count": 39
+  },
+  "python": {
+    "path": "Bestselling\\python.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\python.csv",
+    "section": "Bestselling",
+    "course_count": 30
+  },
+  "react": {
+    "path": "Bestselling\\react.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\react.csv",
+    "section": "Bestselling",
+    "course_count": 48
+  },
+  "real-estate-investing": {
+    "path": "Bestselling\\real-estate-investing.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\real-estate-investing.csv",
+    "section": "Bestselling",
+    "course_count": 40
+  },
+  "sap": {
+    "path": "Bestselling\\sap.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\sap.csv",
+    "section": "Bestselling",
+    "course_count": 40
+  },
+  "seo": {
+    "path": "Bestselling\\seo.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\seo.csv",
+    "section": "Bestselling",
+    "course_count": 37
+  },
+  "social-media-management": {
+    "path": "Bestselling\\social-media-management.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\social-media-management.csv",
+    "section": "Bestselling",
+    "course_count": 42
+  },
+  "social-media-marketing": {
+    "path": "Bestselling\\social-media-marketing.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\social-media-marketing.csv",
+    "section": "Bestselling",
+    "course_count": 41
+  },
+  "software-architecture": {
+    "path": "Bestselling\\software-architecture.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\software-architecture.csv",
+    "section": "Bestselling",
+    "course_count": 37
+  },
+  "software-testing": {
+    "path": "Bestselling\\software-testing.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\software-testing.csv",
+    "section": "Bestselling",
+    "course_count": 44
+  },
+  "spanish-language": {
+    "path": "Bestselling\\spanish-language.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\spanish-language.csv",
+    "section": "Bestselling",
+    "course_count": 35
+  },
+  "spring-framework": {
+    "path": "Bestselling\\spring-framework.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\spring-framework.csv",
+    "section": "Bestselling",
+    "course_count": 40
+  },
+  "sql": {
+    "path": "Bestselling\\sql.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\sql.csv",
+    "section": "Bestselling",
+    "course_count": 44
+  },
+  "statistics": {
+    "path": "Bestselling\\statistics.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\statistics.csv",
+    "section": "Bestselling",
+    "course_count": 44
+  },
+  "stock-trading": {
+    "path": "Bestselling\\stock-trading.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\stock-trading.csv",
+    "section": "Bestselling",
+    "course_count": 47
+  },
+  "typescript": {
+    "path": "Bestselling\\typescript.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\typescript.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "unity": {
+    "path": "Bestselling\\unity.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\unity.csv",
+    "section": "Bestselling",
+    "course_count": 46
+  },
+  "unreal-engine": {
+    "path": "Bestselling\\unreal-engine.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\unreal-engine.csv",
+    "section": "Bestselling",
+    "course_count": 47
+  },
+  "user-experience-design": {
+    "path": "Bestselling\\user-experience-design.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\user-experience-design.csv",
+    "section": "Bestselling",
+    "course_count": 38
+  },
+  "video-editing": {
+    "path": "Bestselling\\video-editing.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\video-editing.csv",
+    "section": "Bestselling",
+    "course_count": 34
+  },
+  "web-development": {
+    "path": "Bestselling\\web-development.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\web-development.csv",
+    "section": "Bestselling",
+    "course_count": 43
+  },
+  "wordpress": {
+    "path": "Bestselling\\wordpress.csv",
+    "full_path": "udemy_data\\courses\\Bestselling\\wordpress.csv",
+    "section": "Bestselling",
+    "course_count": 45
+  },
+  "playwright": {
+    "name": "Microsoft Playwright",
+    "url": "https://www.udemy.com/topic/playwright/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "ios-development": {
+    "name": "iOS Development",
+    "url": "https://www.udemy.com/topic/ios-development/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "dart-programming-language": {
+    "name": "Dart (programming language)",
+    "url": "https://www.udemy.com/topic/dart-programming-language/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "mysql": {
+    "name": "MySQL",
+    "url": "https://www.udemy.com/topic/mysql/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "coding-interview": {
+    "name": "Coding Interview",
+    "url": "https://www.udemy.com/topic/coding-interview/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "nodejs": {
+    "name": "Node.Js",
+    "url": "https://www.udemy.com/topic/nodejs/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "react-native": {
+    "name": "React Native",
+    "url": "https://www.udemy.com/topic/react-native/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "c-programming": {
+    "name": "C (programming language)",
+    "url": "https://www.udemy.com/topic/c-programming/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "spring-boot": {
+    "name": "Spring Boot",
+    "url": "https://www.udemy.com/topic/spring-boot/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "github": {
+    "name": "GitHub",
+    "url": "https://www.udemy.com/topic/github/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "android-development": {
+    "name": "Android Development",
+    "url": "https://www.udemy.com/topic/android-development/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "certified-kubernetes-application-developer-ckad": {
+    "name": "Certified Kubernetes Application Developer (CKAD)",
+    "url": "https://www.udemy.com/topic/certified-kubernetes-application-developer-ckad/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "django": {
+    "name": "Django",
+    "url": "https://www.udemy.com/topic/django/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "programming-fundamentals": {
+    "name": "Programming Fundamentals",
+    "url": "https://www.udemy.com/topic/programming-fundamentals/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "nextjs-p": {
+    "name": "Next.js",
+    "url": "https://www.udemy.com/topic/nextjs-p/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "generative-ai": {
+    "name": "Generative AI (GenAI)",
+    "url": "https://www.udemy.com/topic/generative-ai/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "swift": {
+    "name": "Swift",
+    "url": "https://www.udemy.com/topic/swift/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "fastapi": {
+    "name": "FastAPI",
+    "url": "https://www.udemy.com/topic/fastapi/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "selenium-webdriver": {
+    "name": "Selenium WebDriver",
+    "url": "https://www.udemy.com/topic/selenium-webdriver/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "html5": {
+    "name": "HTML5",
+    "url": "https://www.udemy.com/topic/html5/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "object-oriented-programming": {
+    "name": "Object-Oriented Programming (OOP)",
+    "url": "https://www.udemy.com/topic/object-oriented-programming/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "mern-stack": {
+    "name": "MERN Stack",
+    "url": "https://www.udemy.com/topic/mern-stack/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "go-programming-language": {
+    "name": "Go (programming language)",
+    "url": "https://www.udemy.com/topic/go-programming-language/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "php": {
+    "name": "PHP (programming language)",
+    "url": "https://www.udemy.com/topic/php/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "pytorch": {
+    "name": "PyTorch",
+    "url": "https://www.udemy.com/topic/pytorch/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "vue-js": {
+    "name": "Vue JS",
+    "url": "https://www.udemy.com/topic/vue-js/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "r-programming-language": {
+    "name": "R (programming language)",
+    "url": "https://www.udemy.com/topic/r-programming-language/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "hibernate": {
+    "name": "Hibernate",
+    "url": "https://www.udemy.com/topic/hibernate/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "pandas": {
+    "name": "Pandas",
+    "url": "https://www.udemy.com/topic/pandas/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "database-management": {
+    "name": "Database Management Systems (DBMS)",
+    "url": "https://www.udemy.com/topic/database-management/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "rest-api": {
+    "name": "REST API",
+    "url": "https://www.udemy.com/topic/rest-api/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "nestjs": {
+    "name": "NestJS",
+    "url": "https://www.udemy.com/topic/nestjs/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "responsive-design": {
+    "name": "Responsive Design",
+    "url": "https://www.udemy.com/topic/responsive-design/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "express-framework": {
+    "name": "Express Framework",
+    "url": "https://www.udemy.com/topic/express-framework/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "postman": {
+    "name": "Postman",
+    "url": "https://www.udemy.com/topic/postman/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "apache-kafka": {
+    "name": "Apache Kafka",
+    "url": "https://www.udemy.com/topic/apache-kafka/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "postgresql": {
+    "name": "PostgreSQL",
+    "url": "https://www.udemy.com/topic/postgresql/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "rust-programming-language": {
+    "name": "Rust (programming language)",
+    "url": "https://www.udemy.com/topic/rust-programming-language/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "react-hooks": {
+    "name": "React Hooks",
+    "url": "https://www.udemy.com/topic/react-hooks/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "kotlin": {
+    "name": "Kotlin",
+    "url": "https://www.udemy.com/topic/kotlin/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "automation-testing": {
+    "name": "Automation Testing",
+    "url": "https://www.udemy.com/topic/automation-testing/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "sql-server": {
+    "name": "SQL Server",
+    "url": "https://www.udemy.com/topic/sql-server/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "html": {
+    "name": "HTML",
+    "url": "https://www.udemy.com/topic/html/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "dbt-data-build-tool": {
+    "name": "dbt (Data Build Tool)",
+    "url": "https://www.udemy.com/topic/dbt-data-build-tool/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "cicd": {
+    "name": "CI/CD",
+    "url": "https://www.udemy.com/topic/cicd/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "front-end-web-development": {
+    "name": "Front End Web Development",
+    "url": "https://www.udemy.com/topic/front-end-web-development/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "laravel": {
+    "name": "Laravel",
+    "url": "https://www.udemy.com/topic/laravel/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "api-testing": {
+    "name": "API Testing",
+    "url": "https://www.udemy.com/topic/api-testing/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "jira": {
+    "name": "JIRA",
+    "url": "https://www.udemy.com/topic/jira/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "selenium-testing-framework": {
+    "name": "Selenium Testing Framework",
+    "url": "https://www.udemy.com/topic/selenium-testing-framework/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "apache-spark": {
+    "name": "Apache Spark",
+    "url": "https://www.udemy.com/topic/apache-spark/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "back-end-web-development": {
+    "name": "Back End Web Development",
+    "url": "https://www.udemy.com/topic/back-end-web-development/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "design-pattern": {
+    "name": "Design Patterns (software)",
+    "url": "https://www.udemy.com/topic/design-pattern/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "robotics": {
+    "name": "Robotics",
+    "url": "https://www.udemy.com/topic/robotics/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "full-stack-web-development": {
+    "name": "Full Stack Web Development",
+    "url": "https://www.udemy.com/topic/full-stack-web-development/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "swiftui": {
+    "name": "SwiftUI",
+    "url": "https://www.udemy.com/topic/swiftui/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "neural-networks": {
+    "name": "Neural Networks",
+    "url": "https://www.udemy.com/topic/neural-networks/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "test-driven-development": {
+    "name": "Test-Driven Development (TDD)",
+    "url": "https://www.udemy.com/topic/test-driven-development/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "web-design": {
+    "name": "Web Design",
+    "url": "https://www.udemy.com/topic/web-design/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "natural-language-processing": {
+    "name": "Natural Language Processing (NLP)",
+    "url": "https://www.udemy.com/topic/natural-language-processing/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "godot": {
+    "name": "Godot",
+    "url": "https://www.udemy.com/topic/godot/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "java-algorithms": {
+    "name": "Java Algorithms",
+    "url": "https://www.udemy.com/topic/java-algorithms/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "robot-operating-system": {
+    "name": "Robot Operating System (ROS)",
+    "url": "https://www.udemy.com/topic/robot-operating-system/",
+    "section": "Development",
+    "course_count": 0
+  },
+  "adobe-illustrator": {
+    "name": "Adobe Illustrator",
+    "url": "https://www.udemy.com/topic/adobe-illustrator/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "after-effects": {
+    "name": "Adobe After Effects",
+    "url": "https://www.udemy.com/topic/after-effects/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "3d-printing": {
+    "name": "3D Printing",
+    "url": "https://www.udemy.com/topic/3d-printing/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "figma": {
+    "name": "Figma",
+    "url": "https://www.udemy.com/topic/figma/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "solidworks": {
+    "name": "SOLIDWORKS",
+    "url": "https://www.udemy.com/topic/solidworks/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "character-design": {
+    "name": "Character Design",
+    "url": "https://www.udemy.com/topic/character-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "procreate-ipad-app": {
+    "name": "Procreate Digital Illustration App",
+    "url": "https://www.udemy.com/topic/procreate-ipad-app/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "motion-graphics": {
+    "name": "Motion Graphics",
+    "url": "https://www.udemy.com/topic/motion-graphics/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "fusion-360": {
+    "name": "Autodesk Fusion",
+    "url": "https://www.udemy.com/topic/fusion-360/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "circuit-design": {
+    "name": "PCB Design",
+    "url": "https://www.udemy.com/topic/circuit-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "revit": {
+    "name": "Revit",
+    "url": "https://www.udemy.com/topic/revit/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "sketchup": {
+    "name": "SketchUp",
+    "url": "https://www.udemy.com/topic/sketchup/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "pixel-art": {
+    "name": "Pixel Art",
+    "url": "https://www.udemy.com/topic/pixel-art/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "digital-painting": {
+    "name": "Digital Painting",
+    "url": "https://www.udemy.com/topic/digital-painting/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "indesign": {
+    "name": "Adobe InDesign",
+    "url": "https://www.udemy.com/topic/indesign/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "interior-design": {
+    "name": "Interior Design",
+    "url": "https://www.udemy.com/topic/interior-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "3d-animation": {
+    "name": "3D Animation",
+    "url": "https://www.udemy.com/topic/3d-animation/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "rhino-3d": {
+    "name": "Rhino 3D",
+    "url": "https://www.udemy.com/topic/rhino-3d/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "cad-software": {
+    "name": "CAD Software",
+    "url": "https://www.udemy.com/topic/cad-software/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "mobile-app-design": {
+    "name": "Mobile App Design",
+    "url": "https://www.udemy.com/topic/mobile-app-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "design-theory": {
+    "name": "Design Theory",
+    "url": "https://www.udemy.com/topic/design-theory/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "architectural-design": {
+    "name": "Architectural Design",
+    "url": "https://www.udemy.com/topic/architectural-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "anime": {
+    "name": "Anime",
+    "url": "https://www.udemy.com/topic/anime/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "zbrush": {
+    "name": "zBrush",
+    "url": "https://www.udemy.com/topic/zbrush/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "ansys": {
+    "name": "ANSYS",
+    "url": "https://www.udemy.com/topic/ansys/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "adobe-premiere": {
+    "name": "Adobe Premiere Pro",
+    "url": "https://www.udemy.com/topic/adobe-premiere/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "geometric-dimensioning-and-tolerancing-gdt": {
+    "name": "Geometric Dimensioning and Tolerancing (GD&T)",
+    "url": "https://www.udemy.com/topic/geometric-dimensioning-and-tolerancing-gdt/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "digital-art": {
+    "name": "Digital Art",
+    "url": "https://www.udemy.com/topic/digital-art/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "game-design": {
+    "name": "Game Design",
+    "url": "https://www.udemy.com/topic/game-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "user-interface": {
+    "name": "User Interface Design",
+    "url": "https://www.udemy.com/topic/user-interface/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "3ds-max": {
+    "name": "Autodesk 3ds Max",
+    "url": "https://www.udemy.com/topic/3ds-max/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "maya": {
+    "name": "Autodesk Maya",
+    "url": "https://www.udemy.com/topic/maya/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "cartoon-drawing": {
+    "name": "Cartoon Drawing",
+    "url": "https://www.udemy.com/topic/cartoon-drawing/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "fashion-design": {
+    "name": "Fashion Design",
+    "url": "https://www.udemy.com/topic/fashion-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "leed": {
+    "name": "LEED",
+    "url": "https://www.udemy.com/topic/leed/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "3d-sculpting": {
+    "name": "3D Sculpting",
+    "url": "https://www.udemy.com/topic/3d-sculpting/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "animation": {
+    "name": "Animation",
+    "url": "https://www.udemy.com/topic/animation/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "midjourney": {
+    "name": "Midjourney",
+    "url": "https://www.udemy.com/topic/midjourney/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "affinity-designer": {
+    "name": "Affinity Designer",
+    "url": "https://www.udemy.com/topic/affinity-designer/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "2d-animation": {
+    "name": "2D Animation",
+    "url": "https://www.udemy.com/topic/2d-animation/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "certified-solidworks-associate-cswa": {
+    "name": "Certified SOLIDWORKS Associate (CSWA)",
+    "url": "https://www.udemy.com/topic/certified-solidworks-associate-cswa/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "art-composition": {
+    "name": "Art Composition",
+    "url": "https://www.udemy.com/topic/art-composition/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "siemens-nx": {
+    "name": "Siemens NX",
+    "url": "https://www.udemy.com/topic/siemens-nx/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "figure-drawing": {
+    "name": "Figure Drawing",
+    "url": "https://www.udemy.com/topic/figure-drawing/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "hvac": {
+    "name": "HVAC",
+    "url": "https://www.udemy.com/topic/hvac/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "product-design": {
+    "name": "Product Design",
+    "url": "https://www.udemy.com/topic/product-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "3d-rendering": {
+    "name": "3D Rendering",
+    "url": "https://www.udemy.com/topic/3d-rendering/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "sewing": {
+    "name": "Sewing",
+    "url": "https://www.udemy.com/topic/sewing/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "perspective-drawing": {
+    "name": "Perspective Drawing",
+    "url": "https://www.udemy.com/topic/perspective-drawing/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "krita": {
+    "name": "Krita",
+    "url": "https://www.udemy.com/topic/krita/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "manga": {
+    "name": "Manga",
+    "url": "https://www.udemy.com/topic/manga/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "anatomy": {
+    "name": "Anatomy",
+    "url": "https://www.udemy.com/topic/anatomy/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "catia": {
+    "name": "CATIA",
+    "url": "https://www.udemy.com/topic/catia/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "bim": {
+    "name": "Building Information Modeling (BIM)",
+    "url": "https://www.udemy.com/topic/bim/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "ai-art": {
+    "name": "AI Art Generation",
+    "url": "https://www.udemy.com/topic/ai-art/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "creo": {
+    "name": "Creo",
+    "url": "https://www.udemy.com/topic/creo/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "affinity-publisher": {
+    "name": "Affinity Publisher",
+    "url": "https://www.udemy.com/topic/affinity-publisher/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "sketching": {
+    "name": "Sketching",
+    "url": "https://www.udemy.com/topic/sketching/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "technical-drawing": {
+    "name": "Technical Drawing",
+    "url": "https://www.udemy.com/topic/technical-drawing/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "archicad": {
+    "name": "ARCHICAD",
+    "url": "https://www.udemy.com/topic/archicad/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "logo-design": {
+    "name": "Logo Design",
+    "url": "https://www.udemy.com/topic/logo-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "pattern-making": {
+    "name": "Pattern Making (fashion)",
+    "url": "https://www.udemy.com/topic/pattern-making/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "coreldraw": {
+    "name": "CorelDRAW",
+    "url": "https://www.udemy.com/topic/coreldraw/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "jewelry-design": {
+    "name": "Jewelry Design",
+    "url": "https://www.udemy.com/topic/jewelry-design/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "vfx-visual-effects": {
+    "name": "VFX Visual Effects",
+    "url": "https://www.udemy.com/topic/vfx-visual-effects/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "computational-fluid-dynamics": {
+    "name": "Computational Fluid Dynamics (CFD)",
+    "url": "https://www.udemy.com/topic/computational-fluid-dynamics/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "game-art": {
+    "name": "Game Art",
+    "url": "https://www.udemy.com/topic/game-art/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "fashion": {
+    "name": "Fashion",
+    "url": "https://www.udemy.com/topic/fashion/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "autodesk-inventor": {
+    "name": "Autodesk Inventor",
+    "url": "https://www.udemy.com/topic/autodesk-inventor/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "certified-solidworks-professional-cswp": {
+    "name": "Certified SOLIDWORKS Professional (CSWP)",
+    "url": "https://www.udemy.com/topic/certified-solidworks-professional-cswp/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "clipstudiopaint": {
+    "name": "Clip Studio Paint",
+    "url": "https://www.udemy.com/topic/clipstudiopaint/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "comic-book-creation": {
+    "name": "Comic Book Creation",
+    "url": "https://www.udemy.com/topic/comic-book-creation/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "houdini-software": {
+    "name": "Houdini Software",
+    "url": "https://www.udemy.com/topic/houdini-software/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "ux-writing": {
+    "name": "UX Writing (User Experience Writing)",
+    "url": "https://www.udemy.com/topic/ux-writing/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "illustration": {
+    "name": "Illustration",
+    "url": "https://www.udemy.com/topic/illustration/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "autocad-civil-3d": {
+    "name": "AutoCAD Civil 3D",
+    "url": "https://www.udemy.com/topic/autocad-civil-3d/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "adobe-xd": {
+    "name": "Adobe XD",
+    "url": "https://www.udemy.com/topic/adobe-xd/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "photoshop-retouching": {
+    "name": "Photoshop Retouching",
+    "url": "https://www.udemy.com/topic/photoshop-retouching/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "tekla-structures": {
+    "name": "Tekla Structures",
+    "url": "https://www.udemy.com/topic/tekla-structures/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "construction": {
+    "name": "Construction",
+    "url": "https://www.udemy.com/topic/construction/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "character-modeling": {
+    "name": "Character Modeling",
+    "url": "https://www.udemy.com/topic/character-modeling/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "color-theory": {
+    "name": "Color Theory",
+    "url": "https://www.udemy.com/topic/color-theory/",
+    "section": "Design",
+    "course_count": 0
+  },
+  "business-strategy": {
+    "name": "Business Strategy",
+    "url": "https://www.udemy.com/topic/business-strategy/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "sales-skills": {
+    "name": "Sales Skills",
+    "url": "https://www.udemy.com/topic/sales-skills/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "product-management": {
+    "name": "Product Management",
+    "url": "https://www.udemy.com/topic/product-management/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "six-sigma-green-belt": {
+    "name": "Six Sigma Green Belt Certification",
+    "url": "https://www.udemy.com/topic/six-sigma-green-belt/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "human-resources": {
+    "name": "Human Resources",
+    "url": "https://www.udemy.com/topic/human-resources/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "business-fundamentals": {
+    "name": "Business Fundamentals",
+    "url": "https://www.udemy.com/topic/business-fundamentals/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "management-skills": {
+    "name": "Management Skills",
+    "url": "https://www.udemy.com/topic/management-skills/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "tableau": {
+    "name": "Tableau",
+    "url": "https://www.udemy.com/topic/tableau/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "scrum": {
+    "name": "Scrum",
+    "url": "https://www.udemy.com/topic/scrum/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "quality-management": {
+    "name": "Quality Management",
+    "url": "https://www.udemy.com/topic/quality-management/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "dropshipping": {
+    "name": "Dropshipping",
+    "url": "https://www.udemy.com/topic/dropshipping/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "presentation-skills": {
+    "name": "Presentation Skills",
+    "url": "https://www.udemy.com/topic/presentation-skills/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "amazon-fba": {
+    "name": "Amazon FBA",
+    "url": "https://www.udemy.com/topic/amazon-fba/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "iso-9001": {
+    "name": "ISO 9001",
+    "url": "https://www.udemy.com/topic/iso-9001/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "quickbooks-online": {
+    "name": "QuickBooks Online",
+    "url": "https://www.udemy.com/topic/quickbooks-online/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "management-consulting": {
+    "name": "Management Consulting",
+    "url": "https://www.udemy.com/topic/management-consulting/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "business-intelligence": {
+    "name": "Business Intelligence (BI)",
+    "url": "https://www.udemy.com/topic/business-intelligence/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "six-sigma": {
+    "name": "Six Sigma",
+    "url": "https://www.udemy.com/topic/six-sigma/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "agile": {
+    "name": "Agile",
+    "url": "https://www.udemy.com/topic/agile/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "entrepreneurship": {
+    "name": "Entrepreneurship Fundamentals",
+    "url": "https://www.udemy.com/topic/entrepreneurship/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "supply-chain": {
+    "name": "Supply Chain",
+    "url": "https://www.udemy.com/topic/supply-chain/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "public-speaking": {
+    "name": "Public Speaking",
+    "url": "https://www.udemy.com/topic/public-speaking/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "six-sigma-yellow-belt": {
+    "name": "Six Sigma Yellow Belt Certification",
+    "url": "https://www.udemy.com/topic/six-sigma-yellow-belt/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "customer-service": {
+    "name": "Customer Service",
+    "url": "https://www.udemy.com/topic/customer-service/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "fiction-writing": {
+    "name": "Fiction Writing",
+    "url": "https://www.udemy.com/topic/fiction-writing/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "shopify": {
+    "name": "Shopify",
+    "url": "https://www.udemy.com/topic/shopify/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "b2b-sales": {
+    "name": "B2B Sales",
+    "url": "https://www.udemy.com/topic/b2b-sales/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "dax": {
+    "name": "Data Analysis Expressions (DAX)",
+    "url": "https://www.udemy.com/topic/dax/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "cips-level-4-diploma-in-procurement-and-supply": {
+    "name": "CIPS Level 4 Diploma in Procurement and Supply",
+    "url": "https://www.udemy.com/topic/cips-level-4-diploma-in-procurement-and-supply/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "pmi-acp": {
+    "name": "PMI Agile Certified Practitioner (PMI-ACP)",
+    "url": "https://www.udemy.com/topic/pmi-acp/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "six-sigma-black-belt": {
+    "name": "Six Sigma Black Belt Certification",
+    "url": "https://www.udemy.com/topic/six-sigma-black-belt/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "shopify-dropshipping": {
+    "name": "Shopify Dropshipping",
+    "url": "https://www.udemy.com/topic/shopify-dropshipping/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "real-estate-fundamentals": {
+    "name": "Real Estate",
+    "url": "https://www.udemy.com/topic/real-estate-fundamentals/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "writing": {
+    "name": "Writing",
+    "url": "https://www.udemy.com/topic/writing/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "virtual-assistant": {
+    "name": "Virtual Assistant Skills",
+    "url": "https://www.udemy.com/topic/virtual-assistant/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "online-business": {
+    "name": "Online Business",
+    "url": "https://www.udemy.com/topic/online-business/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "business-communication": {
+    "name": "Business Communication",
+    "url": "https://www.udemy.com/topic/business-communication/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "logistics-management": {
+    "name": "Logistics Management",
+    "url": "https://www.udemy.com/topic/logistics-management/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "product-owner": {
+    "name": "Product Ownership",
+    "url": "https://www.udemy.com/topic/product-owner/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "data-warehouse": {
+    "name": "Data Warehouse",
+    "url": "https://www.udemy.com/topic/data-warehouse/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "etsy": {
+    "name": "Etsy",
+    "url": "https://www.udemy.com/topic/etsy/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "professional-scrum-master-psm": {
+    "name": "Professional Scrum Master (PSM)",
+    "url": "https://www.udemy.com/topic/professional-scrum-master-psm/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "business-analytics": {
+    "name": "Business Analytics",
+    "url": "https://www.udemy.com/topic/business-analytics/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "piping": {
+    "name": "Piping",
+    "url": "https://www.udemy.com/topic/piping/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "e-commerce": {
+    "name": "E-Commerce",
+    "url": "https://www.udemy.com/topic/e-commerce/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "hr-analytics": {
+    "name": "HR Analytics",
+    "url": "https://www.udemy.com/topic/hr-analytics/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "certified-quality-engineer-cqe": {
+    "name": "Certified Quality Engineer (CQE)",
+    "url": "https://www.udemy.com/topic/certified-quality-engineer-cqe/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "business-plan": {
+    "name": "Business Plan",
+    "url": "https://www.udemy.com/topic/business-plan/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "oracle-primavera": {
+    "name": "Oracle Primavera",
+    "url": "https://www.udemy.com/topic/oracle-primavera/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "storytelling": {
+    "name": "Storytelling",
+    "url": "https://www.udemy.com/topic/storytelling/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "microsoft-project": {
+    "name": "Microsoft Project",
+    "url": "https://www.udemy.com/topic/microsoft-project/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "data-visualization": {
+    "name": "Data Visualization",
+    "url": "https://www.udemy.com/topic/data-visualization/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "freelancing": {
+    "name": "Freelancing",
+    "url": "https://www.udemy.com/topic/freelancing/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "manager-training": {
+    "name": "Manager Training",
+    "url": "https://www.udemy.com/topic/manager-training/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "business-process-management": {
+    "name": "Business Process Management (BPM)",
+    "url": "https://www.udemy.com/topic/business-process-management/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "process-mapping": {
+    "name": "Process Mapping",
+    "url": "https://www.udemy.com/topic/process-mapping/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "internal-auditing": {
+    "name": "Internal Auditing",
+    "url": "https://www.udemy.com/topic/internal-auditing/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "risk-management": {
+    "name": "Risk Management",
+    "url": "https://www.udemy.com/topic/risk-management/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "procurement": {
+    "name": "Procurement",
+    "url": "https://www.udemy.com/topic/procurement/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "bpmn": {
+    "name": "BPMN Business Process Model and Notation",
+    "url": "https://www.udemy.com/topic/bpmn/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "change-management": {
+    "name": "Change Management",
+    "url": "https://www.udemy.com/topic/change-management/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "recruiting": {
+    "name": "Recruiting and Hiring",
+    "url": "https://www.udemy.com/topic/recruiting/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "isoiec-27001": {
+    "name": "ISO/IEC 27001",
+    "url": "https://www.udemy.com/topic/isoiec-27001/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "amazon-kindle": {
+    "name": "Amazon Kindle Direct Publishing (KDP)",
+    "url": "https://www.udemy.com/topic/amazon-kindle/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "lean-six-sigma-yellow-belt": {
+    "name": "Lean Six Sigma Yellow Belt Certification",
+    "url": "https://www.udemy.com/topic/lean-six-sigma-yellow-belt/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "startup": {
+    "name": "Startup",
+    "url": "https://www.udemy.com/topic/startup/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "qlik-sense": {
+    "name": "Qlik Sense",
+    "url": "https://www.udemy.com/topic/qlik-sense/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "restaurant-management": {
+    "name": "Restaurant Management",
+    "url": "https://www.udemy.com/topic/restaurant-management/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "lean": {
+    "name": "Lean",
+    "url": "https://www.udemy.com/topic/lean/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "oil-and-gas-industry": {
+    "name": "Oil and Gas Industry",
+    "url": "https://www.udemy.com/topic/oil-and-gas-industry/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "key-performance-indicators": {
+    "name": "Key Performance Indicators (KPIs)",
+    "url": "https://www.udemy.com/topic/key-performance-indicators/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "project-risk-management": {
+    "name": "Project Risk Management",
+    "url": "https://www.udemy.com/topic/project-risk-management/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "root-cause-analysis": {
+    "name": "Root Cause Analysis",
+    "url": "https://www.udemy.com/topic/root-cause-analysis/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "novel-writing": {
+    "name": "Novel Writing",
+    "url": "https://www.udemy.com/topic/novel-writing/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "google-sheets": {
+    "name": "Google Sheets",
+    "url": "https://www.udemy.com/topic/google-sheets/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "warehouse-management": {
+    "name": "Warehouse Management",
+    "url": "https://www.udemy.com/topic/warehouse-management/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "work-safety": {
+    "name": "Workplace Health and Safety",
+    "url": "https://www.udemy.com/topic/work-safety/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "business-development": {
+    "name": "Business Development",
+    "url": "https://www.udemy.com/topic/business-development/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "assertiveness": {
+    "name": "Assertiveness",
+    "url": "https://www.udemy.com/topic/assertiveness/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "pgmp": {
+    "name": "PMI Program Management Professional (PgMP)",
+    "url": "https://www.udemy.com/topic/pgmp/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "selling-on-amazon": {
+    "name": "Selling on Amazon",
+    "url": "https://www.udemy.com/topic/selling-on-amazon/",
+    "section": "Business",
+    "course_count": 0
+  },
+  "personal-development": {
+    "name": "Personal Development",
+    "url": "https://www.udemy.com/topic/personal-development/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "neuro-linguistic-programming": {
+    "name": "Neuro-Linguistic Programming (NLP)",
+    "url": "https://www.udemy.com/topic/neuro-linguistic-programming/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "personal-productivity": {
+    "name": "Personal Productivity",
+    "url": "https://www.udemy.com/topic/personal-productivity/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "creative-writing": {
+    "name": "Creative Writing",
+    "url": "https://www.udemy.com/topic/creative-writing/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "speed-reading": {
+    "name": "Speed Reading",
+    "url": "https://www.udemy.com/topic/speed-reading/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "memory": {
+    "name": "Memory",
+    "url": "https://www.udemy.com/topic/memory/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "time-management": {
+    "name": "Time Management",
+    "url": "https://www.udemy.com/topic/time-management/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "confidence": {
+    "name": "Confidence",
+    "url": "https://www.udemy.com/topic/confidence/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "sound-therapy": {
+    "name": "Sound Therapy",
+    "url": "https://www.udemy.com/topic/sound-therapy/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "personal-transformation": {
+    "name": "Personal Transformation",
+    "url": "https://www.udemy.com/topic/personal-transformation/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "coaching": {
+    "name": "Coaching",
+    "url": "https://www.udemy.com/topic/coaching/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "voice-training": {
+    "name": "Voice Training",
+    "url": "https://www.udemy.com/topic/voice-training/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "mindfulness": {
+    "name": "Mindfulness",
+    "url": "https://www.udemy.com/topic/mindfulness/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "spirituality": {
+    "name": "Spirituality",
+    "url": "https://www.udemy.com/topic/spirituality/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "emotional-intelligence": {
+    "name": "Emotional Intelligence",
+    "url": "https://www.udemy.com/topic/emotional-intelligence/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "interviewing-skills": {
+    "name": "Interviewing Skills",
+    "url": "https://www.udemy.com/topic/interviewing-skills/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "learning-strategies": {
+    "name": "Learning Strategies",
+    "url": "https://www.udemy.com/topic/learning-strategies/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "car-repair": {
+    "name": "Car Repair",
+    "url": "https://www.udemy.com/topic/car-repair/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "body-language": {
+    "name": "Body Language",
+    "url": "https://www.udemy.com/topic/body-language/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "self-esteem": {
+    "name": "Self-Esteem",
+    "url": "https://www.udemy.com/topic/self-esteem/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "stress-management": {
+    "name": "Stress Management",
+    "url": "https://www.udemy.com/topic/stress-management/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "parenting": {
+    "name": "Parenting",
+    "url": "https://www.udemy.com/topic/parenting/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "soft-skills": {
+    "name": "Soft Skills",
+    "url": "https://www.udemy.com/topic/soft-skills/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "psychology-fundamentals": {
+    "name": "Psychology",
+    "url": "https://www.udemy.com/topic/psychology-fundamentals/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "meditation": {
+    "name": "Meditation",
+    "url": "https://www.udemy.com/topic/meditation/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "screenwriting": {
+    "name": "Screenwriting and Scriptwriting",
+    "url": "https://www.udemy.com/topic/screenwriting/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "it-support": {
+    "name": "IT / Technical Support",
+    "url": "https://www.udemy.com/topic/it-support/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "critical-thinking": {
+    "name": "Critical Thinking",
+    "url": "https://www.udemy.com/topic/critical-thinking/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "relationship": {
+    "name": "Relationship Building",
+    "url": "https://www.udemy.com/topic/relationship/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "business-writing": {
+    "name": "Business Writing",
+    "url": "https://www.udemy.com/topic/business-writing/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "focus-mastery": {
+    "name": "Focus Mastery",
+    "url": "https://www.udemy.com/topic/focus-mastery/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "art-therapy": {
+    "name": "Art Therapy",
+    "url": "https://www.udemy.com/topic/art-therapy/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "cbt": {
+    "name": "Cognitive Behavioral Therapy (CBT)",
+    "url": "https://www.udemy.com/topic/cbt/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "neuroplasticity": {
+    "name": "Neuroplasticity",
+    "url": "https://www.udemy.com/topic/neuroplasticity/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "counseling": {
+    "name": "Counseling",
+    "url": "https://www.udemy.com/topic/counseling/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "voice-acting": {
+    "name": "Voice Acting",
+    "url": "https://www.udemy.com/topic/voice-acting/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "negotiation": {
+    "name": "Negotiation",
+    "url": "https://www.udemy.com/topic/negotiation/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "anxiety-management": {
+    "name": "Anxiety Management",
+    "url": "https://www.udemy.com/topic/anxiety-management/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "career-development": {
+    "name": "Career Development",
+    "url": "https://www.udemy.com/topic/career-development/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "persuasion": {
+    "name": "Persuasion",
+    "url": "https://www.udemy.com/topic/persuasion/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "life-purpose": {
+    "name": "Life Purpose",
+    "url": "https://www.udemy.com/topic/life-purpose/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "job-search": {
+    "name": "Job Search",
+    "url": "https://www.udemy.com/topic/job-search/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "decision-making": {
+    "name": "Decision Making",
+    "url": "https://www.udemy.com/topic/decision-making/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "law-of-attraction": {
+    "name": "Manifestation and Law of Attraction",
+    "url": "https://www.udemy.com/topic/law-of-attraction/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "conflict-management": {
+    "name": "Conflict Management",
+    "url": "https://www.udemy.com/topic/conflict-management/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "tarot-reading": {
+    "name": "Tarot Reading",
+    "url": "https://www.udemy.com/topic/tarot-reading/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "meetings": {
+    "name": "Meetings",
+    "url": "https://www.udemy.com/topic/meetings/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "energy-healing": {
+    "name": "Energy Healing",
+    "url": "https://www.udemy.com/topic/energy-healing/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "notion-workspace": {
+    "name": "Notion Workspace",
+    "url": "https://www.udemy.com/topic/notion-workspace/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "accent-reduction": {
+    "name": "Accent Reduction",
+    "url": "https://www.udemy.com/topic/accent-reduction/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "study-skills": {
+    "name": "Study Skills",
+    "url": "https://www.udemy.com/topic/study-skills/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "ccat": {
+    "name": "CCAT",
+    "url": "https://www.udemy.com/topic/ccat/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "neuroscience": {
+    "name": "Neuroscience",
+    "url": "https://www.udemy.com/topic/neuroscience/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "the-bible": {
+    "name": "The Bible",
+    "url": "https://www.udemy.com/topic/the-bible/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "reflexology": {
+    "name": "Reflexology",
+    "url": "https://www.udemy.com/topic/reflexology/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "social-skills": {
+    "name": "Social Skills",
+    "url": "https://www.udemy.com/topic/social-skills/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "acting": {
+    "name": "Acting",
+    "url": "https://www.udemy.com/topic/acting/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "resume": {
+    "name": "Resume and CV Writing",
+    "url": "https://www.udemy.com/topic/resume/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "writing-a-book": {
+    "name": "Writing a Book",
+    "url": "https://www.udemy.com/topic/writing-a-book/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "goal-setting": {
+    "name": "Goal Setting",
+    "url": "https://www.udemy.com/topic/goal-setting/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "magic-trick": {
+    "name": "Magic Tricks",
+    "url": "https://www.udemy.com/topic/magic-trick/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "personal-branding": {
+    "name": "Personal Branding",
+    "url": "https://www.udemy.com/topic/personal-branding/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "personal-success": {
+    "name": "Personal Success",
+    "url": "https://www.udemy.com/topic/personal-success/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "english-literature": {
+    "name": "English Literature",
+    "url": "https://www.udemy.com/topic/english-literature/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "spiritual-healing": {
+    "name": "Spiritual Healing",
+    "url": "https://www.udemy.com/topic/spiritual-healing/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "linkedin": {
+    "name": "LinkedIn",
+    "url": "https://www.udemy.com/topic/linkedin/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "numerology": {
+    "name": "Numerology",
+    "url": "https://www.udemy.com/topic/numerology/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "electricity": {
+    "name": "Electricity",
+    "url": "https://www.udemy.com/topic/electricity/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "automobile-engineering": {
+    "name": "Automotive Engineering",
+    "url": "https://www.udemy.com/topic/automobile-engineering/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "remote-viewing": {
+    "name": "Remote Viewing",
+    "url": "https://www.udemy.com/topic/remote-viewing/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "couples-counseling": {
+    "name": "Couples Counseling",
+    "url": "https://www.udemy.com/topic/couples-counseling/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "habits": {
+    "name": "Habits",
+    "url": "https://www.udemy.com/topic/habits/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "happiness": {
+    "name": "Happiness",
+    "url": "https://www.udemy.com/topic/happiness/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "eft": {
+    "name": "EFT (Emotional Freedom Techniques)",
+    "url": "https://www.udemy.com/topic/eft/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "motivation": {
+    "name": "Motivation",
+    "url": "https://www.udemy.com/topic/motivation/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "self-discipline": {
+    "name": "Self-Discipline",
+    "url": "https://www.udemy.com/topic/self-discipline/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "listening-skills": {
+    "name": "Listening Skills",
+    "url": "https://www.udemy.com/topic/listening-skills/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "aviation": {
+    "name": "Aviation",
+    "url": "https://www.udemy.com/topic/aviation/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "grief-healing": {
+    "name": "Grief Healing",
+    "url": "https://www.udemy.com/topic/grief-healing/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "reiki": {
+    "name": "Reiki",
+    "url": "https://www.udemy.com/topic/reiki/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "career-coaching": {
+    "name": "Career Coach Training",
+    "url": "https://www.udemy.com/topic/career-coaching/",
+    "section": "Personal Development",
+    "course_count": 0
+  },
+  "creativity": {
+    "name": "Creativity",
+    "url": "https://www.udemy.com/topic/creativity/",
+    "section": "Personal Development",
+    "course_count": 0
+  }
+}
