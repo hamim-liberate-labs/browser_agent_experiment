@@ -85,16 +85,9 @@ EXTRACTION_JS = """
                 }
             }
 
-            // Check bestseller badge
-            const bestsellerEl = card.querySelector(
-                '[data-purpose="badge-bestseller"], [class*="bestseller"]'
-            );
-            const bestseller = bestsellerEl ?
-                bestsellerEl.textContent.toLowerCase().includes('bestseller') : false;
-
             courses.push({
                 title, url, instructor, rating, reviews_count,
-                price, original_price, duration, lectures, level, bestseller
+                price, original_price, duration, lectures, level
             });
         } catch (e) {
             // Skip malformed cards

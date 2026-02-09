@@ -18,7 +18,6 @@ class ScrapedCourse:
     duration: Optional[str] = None
     lectures: Optional[str] = None
     level: Optional[str] = None
-    bestseller: bool = False
 
     @classmethod
     def from_dict(cls, data: dict) -> "ScrapedCourse":
@@ -34,7 +33,6 @@ class ScrapedCourse:
             duration=data.get("duration"),
             lectures=data.get("lectures"),
             level=data.get("level"),
-            bestseller=bool(data.get("bestseller")),
         )
 
     def to_dict(self) -> dict:
@@ -50,7 +48,6 @@ class ScrapedCourse:
             "duration": self.duration or "",
             "lectures": self.lectures or "",
             "level": self.level or "",
-            "bestseller": str(self.bestseller).lower(),
         }
 
     @property
@@ -63,5 +60,5 @@ class ScrapedCourse:
         """Get CSV column names."""
         return [
             "title", "url", "instructor", "rating", "reviews_count",
-            "price", "original_price", "duration", "lectures", "level", "bestseller"
+            "price", "original_price", "duration", "lectures", "level"
         ]
